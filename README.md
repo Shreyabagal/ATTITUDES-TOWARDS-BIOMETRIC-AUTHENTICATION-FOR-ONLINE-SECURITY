@@ -1,90 +1,114 @@
 
 # Attitudes Towards Biometric Authentication for Online Security
 
-This project analyzes the attitudes and opinions of individuals towards the use of biometric authentication methods for online security. Data was collected via a Google Form survey, and various insights were derived through data analysis and visualization.
+This project explores how individuals perceive and interact with biometric authentication methods—such as fingerprint, facial recognition, voice ID, and iris scans—in the context of online security. It aims to evaluate trust, usability, awareness, and concerns around biometric technologies through direct user feedback.
 
-## Project Files
+Primary data was collected through a structured Google Form survey, and the responses were analyzed using Python to uncover meaningful patterns and insights. This repository documents the entire process including the raw dataset, analysis script, and visual summaries of response data.
 
-- **Biometric Authentication (Responses).csv**: The raw data collected from the Google Form survey.
-- **biometric_data_insights.py**: Python script used for data analysis and visualizations.
-- **requirements.txt**: A text file listing all required libraries for running the analysis script.
-- **Responses**: Folder containing images summarizing the survey responses.
+---
 
-## Project Overview
+## 📁 Project Structure
 
-This project explores various aspects of biometric authentication, including user familiarity, trust in biometric systems, and preferences regarding its use for online security. The data analysis aims to provide insights into how people feel about biometric authentication methods such as fingerprint scanning, facial recognition, etc.
+| File/Folder                             | Description                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------|
+| `Biometric Authentication (Responses).csv` | Raw data collected from survey participants                                |
+| `biometric_data_insights.py`           | Python script that performs data preprocessing, analysis, and visualization |
+| `requirements.txt`                     | List of required Python packages                                            |
+| `Responses/`                           | Folder containing PNG images summarizing Google Form responses              |
 
-### Dataset Information
+---
 
-The dataset includes responses to questions about:
-- **Demographic Information**: Age, Gender, Occupation.
-- **Familiarity & Usage**: Frequency of biometric authentication use and the methods people are familiar with.
-- **Security Perception & Concerns**: Opinions on the security and privacy of biometric systems.
-- **Trust & Willingness to Use**: Trust in companies handling biometric data and willingness to share biometric data.
-- **Benefits & Convenience**: Perceived benefits and convenience of using biometric methods.
-- **Regulations**: Awareness of laws and regulations governing biometric data.
+## Objectives
 
-## Visualizations
+- Understand public awareness of biometric authentication methods.
+- Explore user experiences, preferences, and perceived security.
+- Identify patterns in demographic data regarding trust and adoption.
+- Visualize results to enhance interpretation and reporting.
 
-Below are the visualizations of the survey responses, which provide insights into each section of the dataset.
+---
 
-### Image 1: Age, Gender, Occupation
+## Data Analysis & Visualization
 
-![Age, Gender, Occupation](Responses/Image1.jpg)
+The Python script (`biometric_data_insights.py`) performs the following:
 
-### Image 2: Familiarity with Biometric Methods
+- Loads and preprocesses the raw CSV data.
+- Handles missing values and converts ranges to numerical values.
+- Generates count plots, histograms, correlation matrices, boxplots, and scatter plots.
+- Performs categorical cross-tabulation and trend analysis.
+- Saves cleaned data for further use or reporting.
 
-![Familiarity with Biometric Methods](Responses/Image2.jpg)
+---
 
-### Image 3: Experience with Biometric Authentication
+##  Visual Summary of Survey Responses
 
-![Experience with Biometric Authentication](Responses/Image3.jpg)
+The following infographics are based on Google Form summary visualizations. Each image provides a snapshot of key sections of the form results.
 
-### Image 4: Trust and Future Use
+###  Image 1: Age, Gender, Occupation
+This visualization displays the demographic breakdown of respondents. It shows how age groups, gender identities, and professional roles are distributed among participants.
 
-![Trust and Future Use](Responses/Image4.jpg)
+![Age, Gender, Occupation](Responses/Image1.png)
 
-### Image 5: Benefits of Biometric Authentication
+---
 
-![Benefits of Biometric Authentication](Responses/Image5.jpg)
+###  Image 2: Familiarity and Usage of Biometric Methods
+Respondents’ familiarity, usage frequency, and types of biometric methods used (e.g., fingerprint, facial recognition) are represented here. It gives insight into public exposure and preferences.
 
-### Image 6: Reliability and Regulations
+![Familiarity and Usage](Responses/Image2.png)
 
-![Reliability and Regulations](Responses/Image6.jpg)
+---
 
-## Analysis and Code
+###  Image 3: Experience, Security Perception, and Concerns
+This chart explores users' experiences with biometric authentication, their perception of security compared to traditional methods, and concerns regarding data misuse.
 
-The analysis of the survey data is done using the `biometric_data_insights.py` script. This script performs several tasks:
+![Experience, Security, Concerns](Responses/Image3.png)
 
-1. **Data Preprocessing**: Loading, cleaning, and preparing the data.
-2. **Statistical Analysis**: Analyzing basic statistics and visualizing categorical and numerical data.
-3. **Cross-Tabulation**: Creating cross-tabulations for better insights into the relationship between variables.
-4. **Correlation Analysis**: Analyzing correlations between numerical variables.
-5. **Visualization**: Creating various plots such as histograms, boxplots, heatmaps, and bar charts.
+---
 
-## How to Run
+###  Image 4: Trust, Willingness, and Future Use
+This section visualizes respondents’ trust in service providers handling biometric data, their willingness to share data with third parties, and openness to future use.
 
-1. **Clone this repository**:
+![Trust and Future Use](Responses/Image4.png)
+
+---
+
+###  Image 5: Benefits, Preference, and Convenience
+It shows which benefits (speed, security, ease) users value most, their preferences over traditional security methods, and how convenient they find biometric authentication.
+
+![Benefits and Preferences](Responses/Image5.png)
+
+---
+
+###  Image 6: Reliability and Awareness of Regulations
+This chart illustrates how reliable respondents perceive biometric authentication to be and their awareness of data protection regulations related to biometric usage.
+
+![Reliability and Regulation Awareness](Responses/Image6.png)
+
+---
+
+##  How to Run the Analysis
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/Attitudes-Towards-Biometric-Authentication-for-Online-Security.git
-   ```
-
-2. **Navigate to the project directory**:
-   ```bash
    cd Attitudes-Towards-Biometric-Authentication-for-Online-Security
    ```
 
-3. **Install the dependencies**:
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the analysis script**:
+3. **Run the analysis script:**
    ```bash
    python biometric_data_insights.py
    ```
 
-## Contributors
+The script will read the survey data from the CSV file, generate visual insights, and display them using matplotlib and seaborn.
 
-Shreya Ramchandra Bagal – Initial work and data analysis.
+---
 
+##  Contributor
+
+**Shreya Ramchandra Bagal** – Conducted the survey, collected and curated the data, and developed the complete analysis pipeline for this project. She also created visual summaries of the survey insights.
+
+---
