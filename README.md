@@ -109,6 +109,6 @@ The script will read the survey data from the CSV file, generate visual insights
 
 ##  Contributor
 
-**Shreya Ramchandra Bagal** – Conducted the survey, collected and curated the data, and developed the complete analysis pipeline for this project. She also created visual summaries of the survey insights.
+**Shreya Ramchandra Bagal** – Conducted the survey, collected and curated the data, and developed the complete analysis pipeline for this project.
 
 ---
