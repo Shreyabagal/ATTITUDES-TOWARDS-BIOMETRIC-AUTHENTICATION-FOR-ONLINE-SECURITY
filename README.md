@@ -89,7 +89,7 @@ This chart illustrates how reliable respondents perceive biometric authenticatio
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/Attitudes-Towards-Biometric-Authentication-for-Online-Security.git
+   git clone https://github.com/Shreyabagal/Attitudes-Towards-Biometric-Authentication-for-Online-Security.git
    cd Attitudes-Towards-Biometric-Authentication-for-Online-Security
    ```
 
